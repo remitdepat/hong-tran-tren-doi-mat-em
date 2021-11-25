@@ -1,5 +1,5 @@
 container:
-  image: node:latest
+  image: circleci/node:16-browsers
   cpu: 1
   memory: 2G
 
